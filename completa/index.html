@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Proposta · Alberto Pierre</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
 :root{
   --bg:#EDEFE9;--surface:#ffffff;--ink:#231814;--mut:#3d342f;
   --line:#cfc9c1;--silver:#cfc9c1;--silverD:#a39a92;--soft:#655B53;--lar:#FF5A1F;--larT:#C23E0C;
@@ -20,7 +19,7 @@
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:#ffffff;font-family:'Instrument Sans',system-ui,-apple-system,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{margin:0;background:#ffffff;font-family:'DM Sans',system-ui,-apple-system,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 
 /* fluid full-width section that centers a max-width content column */
 .pg{width:100%;background:var(--bg);padding:88px max(22px,calc((100% - var(--maxw))/2));position:relative}
@@ -28,13 +27,13 @@ body{margin:0;background:#ffffff;font-family:'Instrument Sans',system-ui,-apple-
 @media (max-width:720px){ .pg{padding:56px 20px} }
 
 /* type */
-h1,h2,h3,h4{font-family:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;margin:0;letter-spacing:0.01em;font-weight:800;text-transform:uppercase}
-.dsp{font-family:'Instrument Sans','Helvetica Neue',Helvetica,sans-serif;margin:0;letter-spacing:-0.01em}
+h1,h2,h3,h4{font-family:'DM Serif Display',Georgia,serif;margin:0;letter-spacing:-0.01em;font-weight:400}
+.dsp{font-family:'DM Sans','Helvetica Neue',Helvetica,sans-serif;margin:0;letter-spacing:-0.01em}
 em{font-style:italic}
 h2{font-size:38px;line-height:1.14;font-weight:400;margin:16px 0 0}
 h3{font-size:18px;line-height:1.3;font-weight:400;margin:0}
 @media (max-width:720px){ h2{font-size:28px} h1{font-size:34px !important} }
-.lead{font-family:'Instrument Sans';font-size:15.5px;line-height:1.65;color:var(--mut);margin:16px 0 0;max-width:64ch}
+.lead{font-family:'DM Sans';font-size:15.5px;line-height:1.65;color:var(--mut);margin:16px 0 0;max-width:64ch}
 .dark .lead{color:var(--silver)}
 p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 .dark p{color:var(--silver)}
@@ -42,7 +41,7 @@ p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 .dark .sm{color:#a39a92}
 
 /* section label: dash + tiny caps */
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--navy);font-weight:700}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--navy);font-weight:700}
 .eyebrow::before{content:'';display:block;width:16px;height:2px;background:var(--lar)}
 .dark .eyebrow{color:var(--silver)}
 .dark .eyebrow::before{background:var(--silver)}
@@ -52,15 +51,15 @@ p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 .nav-in{width:100%;max-width:var(--maxw);padding:16px 22px 10px;display:flex;justify-content:space-between;align-items:center}
 
 /* closing footer (once, end of document) */
-.sitefoot{width:100%;background:var(--navyD);color:#a39a92;padding:34px max(22px,calc((100% - var(--maxw))/2));display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'Instrument Sans';font-size:11px;letter-spacing:0.06em;text-transform:uppercase;flex-wrap:wrap}
+.sitefoot{width:100%;background:var(--navyD);color:#a39a92;padding:34px max(22px,calc((100% - var(--maxw))/2));display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'DM Sans';font-size:11px;letter-spacing:0.06em;text-transform:uppercase;flex-wrap:wrap}
 
 /* logo chip */
 .brand{display:flex;align-items:center;gap:9px}
 .brand img{height:26px;width:auto;display:block}
 .brand .wm{display:flex;flex-direction:column;gap:0;line-height:1}
-.brand .wm b{font-family:'Instrument Sans';font-size:13px;font-weight:700}
-.brand .wm i{font-family:'Instrument Sans';font-size:8px;font-weight:500;letter-spacing:0.32em;color:var(--soft);font-style:normal}
-.doclabel{font-family:'Instrument Sans';font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--soft);border:1px solid var(--line);border-radius:100px;padding:6px 13px}
+.brand .wm b{font-family:'DM Sans';font-size:13px;font-weight:700}
+.brand .wm i{font-family:'DM Sans';font-size:8px;font-weight:500;letter-spacing:0.32em;color:var(--soft);font-style:normal}
+.doclabel{font-family:'DM Sans';font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--soft);border:1px solid var(--line);border-radius:100px;padding:6px 13px}
 .dark .doclabel{border-color:rgba(255,255,255,.15);color:#a39a92}
 
 /* cards: light = solid white + soft shadow; dark = translucent glass */
@@ -83,7 +82,7 @@ p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 }
 
 /* pill badges / tags */
-.pill{display:inline-flex;align-items:center;gap:7px;font-family:'Instrument Sans';font-size:10.5px;font-weight:600;letter-spacing:0.03em;padding:6.5px 14px 6.5px 12px;border-radius:100px;border:1px solid rgba(35,24,20,.22);color:var(--navy);align-self:flex-start;background:rgba(35,24,20,.07)}
+.pill{display:inline-flex;align-items:center;gap:7px;font-family:'DM Sans';font-size:10.5px;font-weight:600;letter-spacing:0.03em;padding:6.5px 14px 6.5px 12px;border-radius:100px;border:1px solid rgba(35,24,20,.22);color:var(--navy);align-self:flex-start;background:rgba(35,24,20,.07)}
 .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--navy);flex-shrink:0}
 .pill.solid{background:var(--lar);border-color:transparent;color:#fff}
 .pill.solid .dot{background:#fff}
@@ -91,7 +90,7 @@ p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 .dark .pill{border-color:rgba(255,255,255,.18);color:var(--silver);background:rgba(255,255,255,.06)}
 .dark .pill .dot{background:var(--silver)}
 
-.tag{font-family:'Instrument Sans',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:5px 11px;border-radius:100px;border:1px solid var(--line);color:var(--mut);align-self:flex-start;background:var(--surface)}
+.tag{font-family:'DM Sans',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:5px 11px;border-radius:100px;border:1px solid var(--line);color:var(--mut);align-self:flex-start;background:var(--surface)}
 .tag.acc{background:var(--gNavy);border-color:transparent;color:#ffffff}
 .tag.soft{background:#e2e0d8;border-color:transparent;color:var(--navy)}
 
@@ -102,23 +101,23 @@ p{font-size:14px;line-height:1.65;color:var(--mut);margin:0}
 .dark .chip svg{stroke:#ffffff}
 
 /* ghost ordinal numbers */
-.ghost{font-family:'Big Shoulders Display','Arial Narrow',sans-serif;font-style:italic;color:transparent;-webkit-text-stroke:1.2px var(--navy);line-height:1}
+.ghost{font-family:'DM Serif Display',serif;font-style:italic;color:transparent;-webkit-text-stroke:1.2px var(--navy);line-height:1}
 .dark .ghost{-webkit-text-stroke:1.2px var(--silver)}
 .gradtext{background:var(--gNavySilver);-webkit-background-clip:text;background-clip:text;color:transparent}
 .dark .gradtext{background:linear-gradient(120deg,#ffffff,var(--silver));-webkit-background-clip:text;background-clip:text;color:transparent}
 
 /* buttons: 8px radius, gradient fill or outline */
-.btn{font-family:'Instrument Sans';font-size:12.5px;font-weight:600;padding:12px 24px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.btn{font-family:'DM Sans';font-size:12.5px;font-weight:600;padding:12px 24px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;cursor:pointer}
 .btn.solid{background:var(--lar);color:#fff;box-shadow:0 8px 20px -8px rgba(35,24,20,.55)}
 .btn.outline{border:1px solid rgba(0,0,0,.18);color:var(--ink)}
 .dark .btn.outline{border-color:rgba(255,255,255,.22);color:#fff}
 
-.stat{font-family:'Big Shoulders Display','Arial Narrow',sans-serif;font-size:38px;font-weight:400;line-height:1;letter-spacing:-0.01em}
+.stat{font-family:'DM Serif Display',serif;font-size:38px;font-weight:400;line-height:1;letter-spacing:-0.01em}
 .rule{height:1px;background:var(--line);width:100%}
 .dark .rule{background:rgba(255,255,255,.14)}
 
 table{width:100%;border-collapse:collapse;font-size:13.5px}
-th{text-align:left;font-family:'Instrument Sans',sans-serif;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--soft);font-weight:600;padding:0 12px 10px 0;border-bottom:1px solid var(--line)}
+th{text-align:left;font-family:'DM Sans',sans-serif;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--soft);font-weight:600;padding:0 12px 10px 0;border-bottom:1px solid var(--line)}
 td{padding:12px 12px 12px 0;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top;font-size:13.5px;line-height:1.5}
 td strong{color:var(--ink);font-weight:600}
 td:last-child,th:last-child{padding-right:0}
@@ -141,7 +140,7 @@ li.off .ck .offx svg{stroke:#a39a92}
 /* sticky nav: section jump links row */
 .navlinks{width:100%;max-width:var(--maxw);padding:0 22px 14px;display:flex;gap:16px;overflow-x:auto;scrollbar-width:none}
 .navlinks::-webkit-scrollbar{display:none}
-.navlinks a{font-family:'Instrument Sans';font-size:11px;font-weight:600;color:var(--soft);white-space:nowrap;letter-spacing:0.02em;padding-bottom:2px;border-bottom:2px solid transparent}
+.navlinks a{font-family:'DM Sans';font-size:11px;font-weight:600;color:var(--soft);white-space:nowrap;letter-spacing:0.02em;padding-bottom:2px;border-bottom:2px solid transparent}
 .navlinks a:hover{color:var(--navy);border-bottom-color:var(--navy)}
 
 a{color:var(--navy);text-decoration:none}
@@ -168,7 +167,6 @@ html{scroll-behavior:smooth}
  linear-gradient(160deg,#2e201a,#231814 45%,#1a120f)!important}
 .sitefoot{background:linear-gradient(180deg,#231814,#140e0b)}
 
-h1,h2{font-family:'Instrument Serif',Georgia,serif!important;text-transform:none!important;font-weight:400!important;letter-spacing:-0.01em!important;line-height:1.05}
 h1 em,h2 em{font-style:italic;color:#FF5A1F}
 .pg.dark{background:
  radial-gradient(60% 70% at 80% 35%,rgba(255,90,31,.42),transparent 70%),
@@ -540,12 +538,12 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
         <span style="width:9px;height:9px;border-radius:50%;background:#d3888a"></span>
         <span style="width:9px;height:9px;border-radius:50%;background:#d6c37f"></span>
         <span style="width:9px;height:9px;border-radius:50%;background:#8fb894"></span>
-        <span style="margin-left:auto;margin-right:auto;background:#fff;border-radius:100px;padding:3px 14px;font-family:'Instrument Sans';font-size:9px;color:#7b8083">albertopierre.com.br</span>
+        <span style="margin-left:auto;margin-right:auto;background:#fff;border-radius:100px;padding:3px 14px;font-family:'DM Sans';font-size:9px;color:#7b8083">albertopierre.com.br</span>
       </div>
 
       <div style="background:var(--gNavyDeep);padding:20px 18px;display:flex;flex-direction:column;gap:9px">
         <span class="pill" style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff;font-size:8.5px">CRECI-DF 33676</span>
-        <span style="font-family:'Big Shoulders Display';font-size:17px;color:#ffffff;line-height:1.2">Compre ou venda seu imóvel em Brasília.</span>
+        <span style="font-family:'DM Serif Display';font-size:17px;color:#ffffff;line-height:1.2">Compre ou venda seu imóvel em Brasília.</span>
         <div style="display:flex;gap:7px;margin-top:2px">
           <span class="btn solid" style="font-size:9px;padding:8px 13px;border-radius:6px">WhatsApp</span>
           <span class="btn outline" style="font-size:9px;padding:8px 13px;border-radius:6px">Ver imóveis</span>
@@ -554,8 +552,8 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
 
       <div style="background:#fff;padding:16px">
         <div style="display:flex;justify-content:space-between;align-items:center">
-          <span style="font-family:'Instrument Sans';font-size:10px;font-weight:600">Imóveis disponíveis</span>
-          <span style="font-family:'Instrument Sans';font-size:8px;color:#8a8f92">Lago Sul · Sudoeste · Noroeste</span>
+          <span style="font-family:'DM Sans';font-size:10px;font-weight:600">Imóveis disponíveis</span>
+          <span style="font-family:'DM Sans';font-size:8px;color:#8a8f92">Lago Sul · Sudoeste · Noroeste</span>
         </div>
         <div style="margin-top:9px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
           <div style="border-radius:9px;overflow:hidden;border:1px solid var(--line)"><img src="imovel-1.jpg" alt="" style="width:100%;height:46px;object-fit:cover;display:block"><div style="padding:7px"><div style="height:5px;width:70%;background:#dcd8d0;border-radius:2px"></div><div style="height:5px;width:45%;background:var(--navy);margin-top:4px;border-radius:2px"></div></div></div>
@@ -566,15 +564,15 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
         <div style="margin-top:10px;display:flex;gap:9px;border:1px solid var(--line);border-radius:10px;padding:10px">
           <div style="width:34px;height:34px;background:linear-gradient(150deg,#e2e4e5,#cfd2d3);flex-shrink:0;border-radius:50%"></div>
           <div style="flex-grow:1">
-            <div style="font-family:'Instrument Sans';font-size:9.5px;font-weight:600">Quem é Alberto Pierre</div>
+            <div style="font-family:'DM Sans';font-size:9.5px;font-weight:600">Quem é Alberto Pierre</div>
             <div style="height:4px;width:100%;background:#e2e4e5;margin-top:6px;border-radius:2px"></div>
             <div style="height:4px;width:88%;background:#e2e4e5;margin-top:3px;border-radius:2px"></div>
           </div>
         </div>
 
         <div style="margin-top:9px;background:var(--navy);border-radius:10px;padding:11px 13px;display:flex;justify-content:space-between;align-items:center">
-          <span style="font-family:'Instrument Sans';font-size:9px;font-weight:600;color:#fff">Quer vender? Receba uma avaliação.</span>
-          <span style="font-family:'Instrument Sans';font-size:10px;font-weight:700;color:#fff">→</span>
+          <span style="font-family:'DM Sans';font-size:9px;font-weight:600;color:#fff">Quer vender? Receba uma avaliação.</span>
+          <span style="font-family:'DM Sans';font-size:10px;font-weight:700;color:#fff">→</span>
         </div>
       </div>
     </div>
@@ -694,7 +692,7 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
     <div class="card" style="flex-direction:row;gap:22px;padding:22px">
       <div style="width:118px;flex-shrink:0;display:flex;flex-direction:column;gap:5px">
         <span class="pill soft" style="font-size:9px;padding:4px 10px">Fase 1</span>
-        <span style="font-family:'Big Shoulders Display';font-size:21px;line-height:1;margin-top:4px">Dias 1–15</span>
+        <span style="font-family:'DM Serif Display';font-size:21px;line-height:1;margin-top:4px">Dias 1–15</span>
         <span class="sm">Fundação</span>
       </div>
       <div style="flex-grow:1;display:flex;flex-direction:column;gap:8px">
@@ -706,7 +704,7 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
     <div class="card" style="flex-direction:row;gap:22px;padding:22px">
       <div style="width:118px;flex-shrink:0;display:flex;flex-direction:column;gap:5px">
         <span class="pill soft" style="font-size:9px;padding:4px 10px">Fase 2</span>
-        <span style="font-family:'Big Shoulders Display';font-size:21px;line-height:1;margin-top:4px">Dias 16–45</span>
+        <span style="font-family:'DM Serif Display';font-size:21px;line-height:1;margin-top:4px">Dias 16–45</span>
         <span class="sm">Primeiros contatos</span>
       </div>
       <div style="flex-grow:1;display:flex;flex-direction:column;gap:8px">
@@ -718,7 +716,7 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
     <div class="card on" style="flex-direction:row;gap:22px;padding:22px">
       <div style="width:118px;flex-shrink:0;display:flex;flex-direction:column;gap:5px">
         <span class="pill" style="font-size:9px;padding:4px 10px">Fase 3</span>
-        <span style="font-family:'Big Shoulders Display';font-size:21px;line-height:1;margin-top:4px">Dias 46–90</span>
+        <span style="font-family:'DM Serif Display';font-size:21px;line-height:1;margin-top:4px">Dias 46–90</span>
         <span class="sm">Otimização</span>
       </div>
       <div style="flex-grow:1;display:flex;flex-direction:column;gap:8px">
@@ -856,7 +854,7 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
     <div class="card bar" style="padding:22px 21px;gap:0;position:relative">
       
       <span class="dsp" style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--soft);font-weight:700">Sem Social Media</span>
-      <div style="margin-top:9px;display:flex;align-items:baseline;gap:4px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:34px">R$ 2.500</span><span class="dsp" style="font-size:11px;color:var(--soft)">/mês</span></div>
+      <div style="margin-top:9px;display:flex;align-items:baseline;gap:4px"><span style="font-family:'DM Serif Display';font-size:30px">R$ 2.500</span><span class="dsp" style="font-size:11px;color:var(--soft)">/mês</span></div>
       <p style="font-size:11px;margin-top:6px;line-height:1.45">Estrutura e anúncios no ar. Vocês gravam e enviam, a gente roteiriza e edita.</p>
       <div class="rule" style="margin:14px 0"></div><ul><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>Landing pages (quantas forem necessárias para a estratégia)</strong></span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Gestão de Google e Meta Ads (ToFu/MoFu/BoFu)</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Criação/Manutenção de perfil do Google Meu Negócio</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Reunião mensal</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Consultoria estratégica</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Diagnóstico digital 360º</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Logo + paleta + tipografia + Manual de ID Visual</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Estruturação de Bio e destaques do Instagram</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">6 posts de fundação (Vitrine Instagram)</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Configuração de Pixel + GA4 + GTM + A/B test</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Roteiro e edição feitos pelo nosso time</span></li></ul>
       <div class="rule" style="margin:14px 0"></div><ul><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>Edição do material enviado por vocês</strong></span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>Cortesia no 1º mês:</strong> pack de criativos para abrir perfil e campanhas</span></li></ul>
@@ -865,7 +863,7 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
     <div class="card bar on" style="padding:22px 21px;gap:0;position:relative">
       <span class="pill solid" style="position:absolute;top:14px;right:14px;font-size:8.5px;padding:5px 10px">RECOMENDADO</span>
       <span class="dsp" style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--larT);font-weight:700">Com Social Media</span>
-      <div style="margin-top:9px;display:flex;align-items:baseline;gap:4px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:34px">R$ 3.500</span><span class="dsp" style="font-size:11px;color:var(--soft)">/mês</span></div>
+      <div style="margin-top:9px;display:flex;align-items:baseline;gap:4px"><span style="font-family:'DM Serif Display';font-size:30px">R$ 3.500</span><span class="dsp" style="font-size:11px;color:var(--soft)">/mês</span></div>
       <p style="font-size:11px;margin-top:6px;line-height:1.45">Tudo do plano anterior, e a gente vai até vocês captar e produzir.</p>
       <div class="rule" style="margin:14px 0"></div><ul><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>Landing pages (quantas forem necessárias para a estratégia)</strong></span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Gestão de Google e Meta Ads (ToFu/MoFu/BoFu)</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Criação/Manutenção de perfil do Google Meu Negócio</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Reunião mensal</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Consultoria estratégica</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Diagnóstico digital 360º</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Logo + paleta + tipografia + Manual de ID Visual</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Estruturação de Bio e destaques do Instagram</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">6 posts de fundação (Vitrine Instagram)</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Configuração de Pixel + GA4 + GTM + A/B test</span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px">Roteiro e edição feitos pelo nosso time</span></li></ul>
       <div class="rule" style="margin:14px 0"></div><ul><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>Gestão mensal de conteúdo</strong></span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>2 captações presenciais por mês</strong></span></li><li><span class="ck"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><span style="font-size:11.5px"><strong>10 criativos por mês</strong>: reels, design e edição</span></li></ul>
@@ -967,11 +965,11 @@ h1 em,h2 em{font-style:italic;color:#FF5A1F}
 
   <div style="margin-top:54px">
     <div style="background:linear-gradient(120deg,#f3f4f4,var(--silver));border-radius:16px;padding:28px 32px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:22px">
-      <span style="font-family:'Big Shoulders Display';font-size:24px;color:#231814;line-height:1.2;max-width:22ch">Fechando o plano hoje, a gente começa em até 3 dias.</span>
+      <span style="font-family:'DM Serif Display';font-size:24px;color:#231814;line-height:1.2;max-width:22ch">Fechando o plano hoje, a gente começa em até 3 dias.</span>
       <div style="display:flex;flex-direction:column;gap:5px;flex-shrink:0;text-align:right">
         <span class="dsp" style="font-size:9.5px;letter-spacing:0.14em;text-transform:uppercase;color:#3b4650">Dúvidas depois da reunião</span>
-        <span style="font-family:'Big Shoulders Display';font-size:17px;color:#231814">(61) 9880-5362</span>
-        <span style="font-family:'Instrument Sans';font-size:11.5px;color:#3b4650">Altair de Araújo</span>
+        <span style="font-family:'DM Serif Display';font-size:17px;color:#231814">(61) 9880-5362</span>
+        <span style="font-family:'DM Sans';font-size:11.5px;color:#3b4650">Altair de Araújo</span>
       </div>
     </div>
   </div>
